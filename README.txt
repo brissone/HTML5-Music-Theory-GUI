@@ -1,5 +1,5 @@
 **************************
-* HTML5 Music Theory GUI *
+*    Music Theory GUI    *
 **************************
 
 DESCRIPTION
@@ -15,34 +15,31 @@ of the music canvas is passed back as an XML string.
 
 A description of basic use is provided in the following documentation file:
 
-[Music Theory GUI component directory]/docs/modules/index.html.
+[Music Theory GUI component directory]/docs/modules/MusThGUI.html.
 
 *******************************************************************************
 
 DEPENDENCIES
 
-This component is dependent on the YUI Javascript Library 
-(http://yuilibrary.com/ - It was developed and tested with YUI version 3.13). 
+This component is dependent on the YUI Javascript Library
+(http://yuilibrary.com/ - It was developed and tested with YUI version 3.13).
 
-In particular, it requires access within its scope to a Y object with the 
+In particular, it requires access within its scope to a Y object with the
 following modules loaded:
 
-"base"
-"node"
-"datatype", 
-"panel"
-"dd-plugin"
+base
+node
+datatype
+panel
+dd-plugin
 
-This repository does not currently contain the required YUI modules, and so 
+This repository does not currently contain the required YUI modules, and so
 the component above will not run "out of the box".
 
 One good way to use this component with YUI is to package it as a YUI module.
-To see an example of this can be done, refer to 
+To see an example of how this can be done, refer to
 https://github.com/brissone/moodle-qtype_musictheory, where the component is
 packaged as a YUI module within Moodle.
-
-I will plan to post more information on how to run the component as
-a standalone GUI on a web page.
 
 *******************************************************************************
 
@@ -96,11 +93,11 @@ may use or license the resulting document.
 
 ------------------------------------------------------------------------------
 
-This component makes calls to the YUI Javascript library, which is free to 
-use under the following license (http://yuilibrary.com/license/)
+The Music Theory GUI component makes calls to the YUI Javascript library, which
+can be used under the following license (http://yuilibrary.com/license/):
 
 Software License Agreement (BSD License)
-Copyright © 2013 Yahoo! Inc. All rights reserved.
+Copyright Â© 2013 Yahoo! Inc. All rights reserved.
 
 Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -110,4 +107,4 @@ Redistributions in binary form must reproduce the above copyright notice, this l
 
 Neither the name of Yahoo! Inc. nor the names of YUI's contributors may be used to endorse or promote products derived from this software without specific prior written permission of Yahoo! Inc.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
